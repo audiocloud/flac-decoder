@@ -1,6 +1,6 @@
 [package]
 name = "flac-decoder"
-version = "0.1.0"
+version = "0.1.4"
 authors = ["Bojan Šernek <bojan@distopiksound.com>"]
 edition = "2018"
 
@@ -9,8 +9,12 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 wasm-bindgen = "0.2.78"
-
 console_error_panic_hook = "0.1.6"
+claxon = "0.4.3"
+log = "0.4.14"
+console_log = "0.2.0"
+js-sys = "0.3.55"
+web-sys = "0.3.55"
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.28"
